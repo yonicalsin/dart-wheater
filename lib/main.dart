@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import "widgets/back-wheater.dart";
+import 'package:gradient/widgets/header.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Devocion Matutina",
       theme: ThemeData(primarySwatch: Colors.green),
-      home: new BackWheater(),
+      home: new Header(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
